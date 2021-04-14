@@ -24,7 +24,7 @@ public class HitDetection : MonoBehaviour
         Collider2D characterCollider = GetComponent<Collider2D>();
     }
 
-    void onCollisionEnter(Collider2D other)
+    void OnCollisionEnter2D(Collision2D other)
     {
         if (other.gameObject.CompareTag("Enemy"))
         {
