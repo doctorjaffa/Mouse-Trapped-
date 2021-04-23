@@ -4,6 +4,12 @@ using UnityEngine;
 
 public class Hazard : MonoBehaviour
 {
+
+    //This will be the amount of damage this hazard does. 
+    //Public variable = shown in Unity editor and accessible from other scripts.
+    //Int = whole numbers.
+    public int hazardDamage;
+
     //Built-in Unity function for handling collisions.
     //This function will be called when another object bumps into the one this script is attached to.
     void OnCollisionEnter2D(Collision2D collisionData)
@@ -22,7 +28,7 @@ public class Hazard : MonoBehaviour
             //This means this object is the player.
 
             //Therefore perform the action.
-            player.Kill();
+            player.changeHealth(-hazardDamage);
         }
     }
 
