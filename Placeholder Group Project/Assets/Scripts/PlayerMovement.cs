@@ -8,9 +8,6 @@ public class PlayerMovement : MonoBehaviour
     public float movementForce = 10f;
     public float jumpForce = 1000f;
 
-    // Variable to hold the audio clip to play when walking.
-    public AudioClip footstepSound;
-
     // Start is called before the first frame update
     void Start()
     {
@@ -31,19 +28,6 @@ public class PlayerMovement : MonoBehaviour
             // Add a force to the Rigidbody to move our player
             ourRigidbody.AddForce(Vector2.right * movementForce);
 
-            // Get audio source to play footstep sounds
-            AudioSource ourAudioSource = GetComponent<AudioSource>();
-
-            // Check if clip is already playing
-            if (ourAudioSource.clip == footstepSound && ourAudioSource.isPlaying)
-            {
-                // Do nothing - the audio source is already playing the sound effect
-            }
-            else
-            {
-                ourAudioSource.clip = footstepSound;
-                ourAudioSource.Play();
-            }
         }
 
         // Condition: When a player presses the A key...
@@ -56,19 +40,6 @@ public class PlayerMovement : MonoBehaviour
             // Add a force to the Rigidbody to move our player
             ourRigidbody.AddForce(Vector2.left * movementForce);
 
-            // Get audio source to play footstep sounds
-            AudioSource ourAudioSource = GetComponent<AudioSource>();
-
-            // Check if clip is already playing
-            if (ourAudioSource.clip == footstepSound && ourAudioSource.isPlaying)
-            {
-                // Do nothing - the audio source is already playing the sound effect
-            }
-            else
-            {
-                ourAudioSource.clip = footstepSound;
-                ourAudioSource.Play();
-            }
         }
 
         //Condition: When the player first presses space bar
