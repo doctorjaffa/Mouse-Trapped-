@@ -8,6 +8,7 @@ public class PlayerMovement : MonoBehaviour
     public float movementForce = 10f;
     public float jumpForce = 1000f;
     public int jumpCharge = 1;
+    public Collider2D jumpSensor;
 
     // Update is called once per frame
     void FixedUpdate()
@@ -37,6 +38,9 @@ public class PlayerMovement : MonoBehaviour
 
         }
 
+        if (jumpSensor.IsTouchingLayers(LayerMask.GetMask("Ground")))
+            jumpCharge = 1;
+ 
         //Condition: When the player first presses space bar
         if (Input.GetKeyDown(KeyCode.Space) == true && jumpCharge > 0)
         {

@@ -9,6 +9,7 @@ public class Hazard : MonoBehaviour
     //Public variable = shown in Unity editor and accessible from other scripts.
     //Int = whole numbers.
     public int hazardDamage;
+    public Sprite closedTrap;
 
     //Built-in Unity function for handling collisions.
     //This function will be called when another object bumps into the one this script is attached to.
@@ -22,13 +23,20 @@ public class Hazard : MonoBehaviour
 
         //Check if a player health script was found on the object collided with. 
         //This if statement is true if the player variable is NOT null (not empty).
-        if (player != null)
+        if (player != null && enabled == true)
         {
             //This means there WAS a PlayerHealth script attached to the object collided with.
             //This means this object is the player.
 
             //Therefore perform the action.
             player.ChangeHealth(-hazardDamage);
+
+            //Changing trap image.
+            SpriteRenderer trapImg = GetComponent<SpriteRenderer>();
+            trapImg.sprite = closedTrap;
+
+            //Disable hazard script.
+            enabled = false;
         }
     }
 
