@@ -7,12 +7,7 @@ public class PlayerMovement : MonoBehaviour
     // Public variables
     public float movementForce = 10f;
     public float jumpForce = 1000f;
-
-    // Start is called before the first frame update
-    void Start()
-    {
-
-    }
+    public int jumpCharge = 1;
 
     // Update is called once per frame
     void FixedUpdate()
@@ -43,7 +38,7 @@ public class PlayerMovement : MonoBehaviour
         }
 
         //Condition: When the player first presses space bar
-        if (Input.GetKeyDown(KeyCode.Space) == true)
+        if (Input.GetKeyDown(KeyCode.Space) == true && jumpCharge > 0)
         {
             //Action: Apply a force (push the player up)
             // Get the Rigidbody component off our player so we can use it
@@ -51,6 +46,7 @@ public class PlayerMovement : MonoBehaviour
 
             // Add a force to the Rigidbody to move our player
             ourRigidbody.AddForce(Vector2.up * jumpForce);
+            jumpCharge -= 1;
         }
     }
 }
