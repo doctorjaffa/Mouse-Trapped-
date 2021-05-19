@@ -1,0 +1,620 @@
+fileFormatVersion: 2
+guid: 91b09a6459c4e654c9e01a852e7be7b5
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8524006431021219562
+    second: Mouse Spritesheet Left_0
+  - first:
+      213: -7184343621455199337
+    second: Mouse Spritesheet Left_1
+  - first:
+      213: -1964185165865021960
+    second: Mouse Spritesheet Left_2
+  - first:
+      213: 7552651740962372637
+    second: Mouse Spritesheet Left_3
+  - first:
+      213: 3402755772962861370
+    second: Mouse Spritesheet Left_4
+  - first:
+      213: -7379096441300797703
+    second: Mouse Spritesheet Left_5
+  - first:
+      213: -3780847731847336850
+    second: Mouse Spritesheet Left_6
+  - first:
+      213: 466452526176247088
+    second: Mouse Spritesheet Left_7
+  - first:
+      213: 4611209060224903760
+    second: Mouse Spritesheet Left_8
+  - first:
+      213: 7919655125412245304
+    second: Mouse Spritesheet Left_9
+  - first:
+      213: 8304473788305802270
+    second: Mouse Spritesheet Left_10
+  - first:
+      213: 1125919403190652733
+    second: Mouse Spritesheet Left_11
+  - first:
+      213: -548868516906610247
+    second: Mouse Spritesheet Left_12
+  - first:
+      213: -388691484826574738
+    second: Mouse Spritesheet Left_13
+  - first:
+      213: -7002898562877416531
+    second: Mouse Spritesheet Left_14
+  - first:
+      213: 5144783299921730132
+    second: Mouse Spritesheet Left_15
+  - first:
+      213: 320902715464500870
+    second: Mouse Spritesheet Left_16
+  - first:
+      213: 2352067995965930552
+    second: Mouse Spritesheet Left_17
+  - first:
+      213: -32264286844859945
+    second: Mouse Spritesheet Left_18
+  - first:
+      213: 4853806741032672577
+    second: Mouse Spritesheet Left_19
+  - first:
+      213: -2428082556682994840
+    second: Mouse Spritesheet Left_20
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Mouse Spritesheet Left_0
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 4685
+        width: 395
+        height: 227
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aee3a28dfaa5b4670800000000000000
+      internalID: 8524006431021219562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mouse Spritesheet Left_1
+      rect:
+        serializedVersion: 2
+        x: 1346
+        y: 4685
+        width: 388
+        height: 227
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 793c1d26a851c4c90800000000000000
+      internalID: -7184343621455199337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mouse Spritesheet Left_2
+      rect:
+        serializedVersion: 2
+        x: 2356
+        y: 4685
+        width: 337
+        height: 266
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fd06839fffcdb4e0800000000000000
+      internalID: -1964185165865021960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mouse Spritesheet Left_3
+      rect:
+        serializedVersion: 2
+        x: 3428
+        y: 4685
+        width: 246
+        height: 298
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1c3c442eb860d860800000000000000
+      internalID: 7552651740962372637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mouse Spritesheet Left_4
+      rect:
+        serializedVersion: 2
+        x: 2996
+        y: 4485
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a317cd0d854093f20800000000000000
+      internalID: 3402755772962861370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mouse Spritesheet Left_5
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 3687
+        width: 424
+        height: 225
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f6baecf1ee289990800000000000000
+      internalID: -7379096441300797703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mouse Spritesheet Left_6
+      rect:
+        serializedVersion: 2
+        x: 1356
+        y: 3687
+        width: 427
+        height: 225
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6ce569050bb78bc0800000000000000
+      internalID: -3780847731847336850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mouse Spritesheet Left_7
+      rect:
+        serializedVersion: 2
+        x: 2356
+        y: 3687
+        width: 427
+        height: 225
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03d9157e91c297600800000000000000
+      internalID: 466452526176247088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mouse Spritesheet Left_8
+      rect:
+        serializedVersion: 2
+        x: 3357
+        y: 3687
+        width: 427
+        height: 225
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05aa4c3853e4eff30800000000000000
+      internalID: 4611209060224903760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mouse Spritesheet Left_9
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 2686
+        width: 424
+        height: 227
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83f6ccd506448ed60800000000000000
+      internalID: 7919655125412245304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mouse Spritesheet Left_10
+      rect:
+        serializedVersion: 2
+        x: 1356
+        y: 2686
+        width: 427
+        height: 227
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e14828659ea6f3370800000000000000
+      internalID: 8304473788305802270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mouse Spritesheet Left_11
+      rect:
+        serializedVersion: 2
+        x: 2356
+        y: 2686
+        width: 427
+        height: 227
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3f06e85bb110af00800000000000000
+      internalID: 1125919403190652733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mouse Spritesheet Left_12
+      rect:
+        serializedVersion: 2
+        x: 3357
+        y: 2686
+        width: 427
+        height: 227
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b1d26dedf60268f0800000000000000
+      internalID: -548868516906610247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mouse Spritesheet Left_13
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 1746
+        width: 356
+        height: 247
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6061b767271b9af0800000000000000
+      internalID: -388691484826574738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mouse Spritesheet Left_14
+      rect:
+        serializedVersion: 2
+        x: 1368
+        y: 1715
+        width: 366
+        height: 246
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dab19992cd4b0de90800000000000000
+      internalID: -7002898562877416531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mouse Spritesheet Left_15
+      rect:
+        serializedVersion: 2
+        x: 2356
+        y: 1685
+        width: 427
+        height: 227
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45a523e2721f56740800000000000000
+      internalID: 5144783299921730132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mouse Spritesheet Left_16
+      rect:
+        serializedVersion: 2
+        x: 3376
+        y: 1685
+        width: 408
+        height: 237
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68648bac153147400800000000000000
+      internalID: 320902715464500870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mouse Spritesheet Left_17
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 675
+        width: 405
+        height: 227
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83c3d1b616934a020800000000000000
+      internalID: 2352067995965930552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mouse Spritesheet Left_18
+      rect:
+        serializedVersion: 2
+        x: 1236
+        y: 685
+        width: 366
+        height: 227
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d94ea35dcf5d8ff0800000000000000
+      internalID: -32264286844859945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mouse Spritesheet Left_19
+      rect:
+        serializedVersion: 2
+        x: 2237
+        y: 685
+        width: 366
+        height: 246
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14d16afa38f2c5340800000000000000
+      internalID: 4853806741032672577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mouse Spritesheet Left_20
+      rect:
+        serializedVersion: 2
+        x: 3276
+        y: 716
+        width: 366
+        height: 257
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86b769b77c7bd4ed0800000000000000
+      internalID: -2428082556682994840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

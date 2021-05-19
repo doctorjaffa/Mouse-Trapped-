@@ -34,10 +34,6 @@ public class PlayerHealth : MonoBehaviour
         //Take current health, add the change amount and store the result back into current health.
         currentHealth += changeAmount;
 
-        //Current health cannot go below zero or above starting health so special 
-        //function "Clamp" is used to keep it between 0 and the starting health.
-        currentHealth = Mathf.Clamp(currentHealth, 0, startingHealth);
-
         //If health has dropped to 0, the player should die.
         if (currentHealth <= 0)
         {

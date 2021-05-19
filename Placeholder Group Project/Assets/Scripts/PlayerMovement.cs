@@ -13,14 +13,25 @@ public class PlayerMovement : MonoBehaviour
     // Update is called once per frame
     void FixedUpdate()
     {
+        // Get the Rigidbody component off our player so we can use it.
+        Rigidbody2D ourRigidbody = GetComponent<Rigidbody2D>();
+
+        // Find out from the rigidbody what our current horizontal and vertical speeds are.
+        float currentSpeedH = ourRigidbody.velocity.x;
+        float currentSpeedV = ourRigidbody.velocity.y;
+
+        // Get the animator component that will be used for our animation.
+        Animator ourAnimator = GetComponent<Animator>();
+
+        // Tell our animator what the speeds are.
+        ourAnimator.SetFloat("speedH", currentSpeedH);
+        ourAnimator.SetFloat("speedV", currentSpeedV);
+
 
         // Condition: When a player presses the D key...
         if (Input.GetKey(KeyCode.D) == true)
         {
             // Action: Apply a force (move the player)
-            // Get the Rigidbody component off our player so we can use it
-            Rigidbody2D ourRigidbody = GetComponent<Rigidbody2D>();
-
             // Add a force to the Rigidbody to move our player
             ourRigidbody.AddForce(Vector2.right * movementForce);
 
@@ -30,9 +41,6 @@ public class PlayerMovement : MonoBehaviour
         if (Input.GetKey(KeyCode.A) == true)
         {
             // Action: Apply a force (move the player)
-            // Get the Rigidbody component off our player so we can use it
-            Rigidbody2D ourRigidbody = GetComponent<Rigidbody2D>();
-
             // Add a force to the Rigidbody to move our player
             ourRigidbody.AddForce(Vector2.left * movementForce);
 
@@ -45,9 +53,6 @@ public class PlayerMovement : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Space) == true && jumpCharge > 0)
         {
             //Action: Apply a force (push the player up)
-            // Get the Rigidbody component off our player so we can use it
-            Rigidbody2D ourRigidbody = GetComponent<Rigidbody2D>();
-
             // Add a force to the Rigidbody to move our player
             ourRigidbody.AddForce(Vector2.up * jumpForce);
             jumpCharge -= 1;
