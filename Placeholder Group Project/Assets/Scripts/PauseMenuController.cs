@@ -17,7 +17,6 @@ public class PauseMenuController : MonoBehaviour
     {
         isPaused = false;
         PauseMenu.SetActive(false);
-        audiosource = GetComponent<AudioSource>();
     }
     void Update()
     {
@@ -26,12 +25,10 @@ public class PauseMenuController : MonoBehaviour
             if (isPaused)
             {
                 UnPauseGameOnDown();
-                audiosource.volume = 1f;
             }
             else
             {
                 PauseGameOnDown();
-                audiosource.volume = 0f;
             }
         }
     }
